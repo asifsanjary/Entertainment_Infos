@@ -5,6 +5,7 @@
 <h2>Todos</h2>
 <ul>
   <li>Add TMBD Login Functionality, Sync Bookmarks, WatchLists, User-Preferences</li>
+  <li>Daily refresh Movie (Popular, Top-Rated...) APIs and update local db
   <li>Add search option</li>
   <li>Learn & Optimize DB Structure, Query</li>
   <li>Use Kotlin Coroutines properly</li>
@@ -17,12 +18,12 @@
     <th>Movie List Page</th>
   </tr>
   <tr>
-    <td><img src="screenshots/Screenshot_20211118-043814_Entertainment_Infos.png" alt="Initial Pic" width="400"/></td>
-    <td><img src="screenshots/Screenshot_20211118-044501_Entertainment_Infos.png" alt="Initial Pic" width="400"/></td>
+    <td><img src="screenshots/Screenshot_20211118-043814_Entertainment_Infos.png" alt="Dark Mode - Front Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_20211118-044501_Entertainment_Infos.png" alt="Dark Mode - Movie List Page" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="screenshots/Screenshot_20211118-044518_Entertainment_Infos.png" alt="Initial Pic" width="400"/></td>
-    <td><img src="screenshots/Screenshot_20211118-044524_Entertainment_Infos.png" alt="Initial Pic" width="400"/></td>
+    <td><img src="screenshots/Screenshot_20211118-044518_Entertainment_Infos.png" alt="Front Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_20211118-044524_Entertainment_Infos.png" alt="Movie List Page" width="400"/></td>
   </tr>
 </table>
 
