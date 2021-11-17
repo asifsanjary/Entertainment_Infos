@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/0asif/.gradle/caches/transforms-3/a41f65a1b182ec9e11a9bbe3d48996cb/transformed/appcompat-1.3.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable/adapter_divider.xml" value="0.1796875" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable/divider.xml" value="0.1796875" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable/ic_baseline_blur_on_24.xml" value="0.1796875" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable/ic_baseline_movie_filter_24.xml" value="0.1796875" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/activity_audio_recording.xml" value="0.13903985507246377" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/activity_main.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/activity_movie_list.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/adapter_last_item_view.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/adapter_loading_view.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/category_header_layout.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/movie_item_square_view.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Find_All_Movies_Tvs/app/src/main/res/layout/movie_list_item_view.xml" value="0.22" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/activity_audio_recording.xml" value="0.15625" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/activity_main.xml" value="0.14947916666666666" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/activity_movie_list.xml" value="0.1" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/category_header_layout.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/movie_item_square_view.xml" value="0.22" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/movie_list_item_view.xml" value="0.15625" />
+        <entry key="..\:/Users/0asif/AndroidStudioProjects/Shazam_Sample_App/app/src/main/res/layout/sample_music_item_view.xml" value="0.11503623188405797" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

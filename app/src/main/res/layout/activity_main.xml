@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Composite.Background.View.Category.Preview.Background"
+    tools:context="com.asifsanjary.find_all_movies_tvs.view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/Composite.Background.View.Category.Preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <com.asifsanjary.find_all_movies_tvs.view.views.CategoryHeaderView
+                android:id="@+id/popularPreviewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/popularMoviePreviewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Composite.Background.View.Category.Preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <com.asifsanjary.find_all_movies_tvs.view.views.CategoryHeaderView
+                android:id="@+id/nowPlayingPreviewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/nowPlayingMoviePreviewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Composite.Background.View.Category.Preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <com.asifsanjary.find_all_movies_tvs.view.views.CategoryHeaderView
+                android:id="@+id/upcomingPreviewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/upcomingMoviePreviewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/Composite.Background.View.Category.Preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <com.asifsanjary.find_all_movies_tvs.view.views.CategoryHeaderView
+                android:id="@+id/topRatedPreviewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/topRatedMoviePreviewLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
