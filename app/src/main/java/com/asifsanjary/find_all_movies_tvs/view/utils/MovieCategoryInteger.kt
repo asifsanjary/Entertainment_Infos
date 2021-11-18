@@ -1,10 +1,10 @@
 package com.asifsanjary.find_all_movies_tvs.view.utils
 
 enum class MovieCategoryInteger(val category: Int) {
-    POPULAR(0),
-    NOW_PLAYING(1),
-    UPCOMING(2),
-    TOP_RATED(3)
+    POPULAR(1001),
+    NOW_PLAYING(1002),
+    UPCOMING(1003),
+    TOP_RATED(1004)
 }
 
 enum class MovieCategoryString(val category: String) {

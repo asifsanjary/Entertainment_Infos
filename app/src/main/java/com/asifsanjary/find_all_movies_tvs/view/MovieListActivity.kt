@@ -123,7 +123,7 @@ class MovieListActivity : AppCompatActivity() {
                 return
             }
         }
-        moviePreviewViewModel.getMoviesList(this, movieCategoryInteger, pageNo)
+        moviePreviewViewModel.getMoviesList(movieCategoryInteger, pageNo)
     }
 
     private fun updateAdapterList(movieList : List<MovieBasic>?) {
