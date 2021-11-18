@@ -5,7 +5,7 @@
 <h2>Todos</h2>
 <ul>
   <li>Add TMBD Login Functionality, Sync Bookmarks, WatchLists, User-Preferences</li>
-  <li>Daily refresh Movie (Popular, Top-Rated...) APIs and update local db
+  <li><del>Daily refresh Movie (Popular, Top-Rated...) APIs and update local db</de></li>
   <li>Add search option</li>
   <li>Learn & Optimize DB Structure, Query</li>
   <li>Use Kotlin Coroutines properly</li>
