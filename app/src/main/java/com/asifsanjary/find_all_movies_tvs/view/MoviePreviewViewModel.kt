@@ -1,6 +1,5 @@
 package com.asifsanjary.find_all_movies_tvs.view
 
-import android.content.Context
 import android.util.Log
 import androidx.lifecycle.*
 import com.asifsanjary.find_all_movies_tvs.repository.Repository
@@ -24,8 +23,8 @@ class MoviePreviewViewModel(private val repository: Repository) : ViewModel() {
     private val upcomingMoviesListMt : MutableLiveData<List<MovieBasic>> = MutableLiveData()
     val upcomingMoviesList : LiveData<List<MovieBasic>> = upcomingMoviesListMt
 
-    fun getMoviesList(context: Context, movieCategoryInteger: MovieCategoryInteger, pageNo: Int) = viewModelScope.launch{
-        repository.getMoviePreviewDataList(context, movieCategoryInteger, pageNo, object :
+    fun getMoviesList(movieCategoryInteger: MovieCategoryInteger, pageNo: Int) = viewModelScope.launch{
+        repository.getMoviePreviewDataList(movieCategoryInteger, pageNo, object :
             OnResponseVm {
             override fun onReceived(movieList: List<MovieBasic>) {
                 Log.d(className, "${movieList.size.toString()} $movieCategoryInteger Movies Received")

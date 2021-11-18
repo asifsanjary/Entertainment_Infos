@@ -18,12 +18,12 @@
     <th>Movie List Page</th>
   </tr>
   <tr>
-    <td><img src="screenshots/Screenshot_20211118-043814_Entertainment_Infos.png" alt="Dark Mode - Front Page" width="400"/></td>
-    <td><img src="screenshots/Screenshot_20211118-044501_Entertainment_Infos.png" alt="Dark Mode - Movie List Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_1637238360.png" alt="Dark Mode - Front Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_1637237977.png" alt="Dark Mode - Movie List Page" width="400"/></td>
   </tr>
   <tr>
-    <td><img src="screenshots/Screenshot_20211118-044518_Entertainment_Infos.png" alt="Front Page" width="400"/></td>
-    <td><img src="screenshots/Screenshot_20211118-044524_Entertainment_Infos.png" alt="Movie List Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_1637238185.png" alt="Front Page" width="400"/></td>
+    <td><img src="screenshots/Screenshot_1637238054.png" alt="Movie List Page" width="400"/></td>
   </tr>
 </table>
 

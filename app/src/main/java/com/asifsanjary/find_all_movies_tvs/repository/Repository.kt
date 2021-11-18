@@ -1,6 +1,5 @@
 package com.asifsanjary.find_all_movies_tvs.repository
 
-import android.content.Context
 import android.util.Log
 import com.asifsanjary.find_all_movies_tvs.repository.local.LocalRepository
 import com.asifsanjary.find_all_movies_tvs.repository.local.entities.MovieBasic
@@ -19,7 +18,11 @@ class Repository(private val localRepository: LocalRepository, private val netwo
 
     private val className : String = "Repository"
 
-    suspend fun getMoviePreviewDataList(context: Context, movieCategoryInteger: MovieCategoryInteger, pageNo: Int, response: OnResponseVm) = withContext(Dispatchers.IO){
+    suspend fun getMoviePreviewDataList(
+        movieCategoryInteger: MovieCategoryInteger,
+        pageNo: Int,
+        response: OnResponseVm
+    ) = withContext(Dispatchers.IO){
         val movieList = localRepository.getMoviePreviewDataList(movieCategoryInteger, pageNo)
 
         if (movieList.isNotEmpty()) {
@@ -40,8 +43,14 @@ class Repository(private val localRepository: LocalRepository, private val netwo
 
                         // TODO: need to learn more
                         GlobalScope.launch {
-                            insertMovies(context, movieBasicList)
-                            insertListOfMoviePositionInCategory(context, movieCategoryInteger, listOfMoviePositionInCategory)
+                            insertMovies(movieBasicList)
+                            insertListOfMoviePositionInCategory(
+                                movieCategoryInteger,
+                                listOfMoviePositionInCategory
+                            )
+                            if (pageNo == 1) {
+                                insertDbUpdateTime(movieCategoryInteger)
+                            }
                         }
 
                         response.onReceived(movieBasicList)
@@ -57,6 +66,10 @@ class Repository(private val localRepository: LocalRepository, private val netwo
 
             })
         }
+    }
+
+    private suspend fun insertDbUpdateTime(category: MovieCategoryInteger) {
+        localRepository.insertDbUpdateTime(category)
     }
 
     private fun convertToListOfMoviePositionInCategory(movieItemList: List<MovieItem>, pageNo: Int): List<MoviePositionInCategory> {
@@ -102,12 +115,18 @@ class Repository(private val localRepository: LocalRepository, private val netwo
         return newMoviesList.toList()
     }
 
-    suspend fun insertMovies(context: Context, movieList: List<MovieBasic>) {
-        localRepository.insertMovies(context, movieList)
+    suspend fun insertMovies(movieList: List<MovieBasic>) {
+        localRepository.insertMovies(movieList)
     }
 
-    suspend fun insertListOfMoviePositionInCategory(context: Context, movieCategoryInteger: MovieCategoryInteger, listOfMoviePositionInCategory: List<MoviePositionInCategory>) {
-        localRepository.insertListOfMoviePositionInCategory(context, movieCategoryInteger, listOfMoviePositionInCategory)
+    suspend fun insertListOfMoviePositionInCategory(
+        movieCategoryInteger: MovieCategoryInteger,
+        listOfMoviePositionInCategory: List<MoviePositionInCategory>
+    ) {
+        localRepository.insertListOfMoviePositionInCategory(
+            movieCategoryInteger,
+            listOfMoviePositionInCategory
+        )
     }
 }
 

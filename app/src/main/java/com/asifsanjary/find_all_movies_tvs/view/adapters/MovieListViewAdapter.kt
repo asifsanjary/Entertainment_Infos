@@ -38,7 +38,11 @@ class MovieListViewAdapter(private val movieItems: MutableList<MovieBasic>):
 
         fun bind(movieItem: MovieBasic) {
             moviePopularityScoreText.text = (movieItem.voteAverage * 10).toInt().toString().plus("%")
-            movieNameText.text = movieItem.title
+            var movieTitle : String = movieItem.title
+            (movieItem.releaseDate.length > 4).let {
+                movieTitle = movieTitle.plus(" (").plus(movieItem.releaseDate.substring(0, 4)).plus(")")
+            }
+            movieNameText.text = movieTitle
             movieOverviewText.text = movieItem.overview
             movieGenresText.text = movieItem.genres
 

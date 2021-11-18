@@ -57,10 +57,10 @@ class MainActivity : AppCompatActivity(), OnClickShowAllItem {
     }
 
     private fun fetchFromApi() {
-        moviePreviewViewModel.getMoviesList(this, MovieCategoryInteger.TOP_RATED, 1)
-        moviePreviewViewModel.getMoviesList(this, MovieCategoryInteger.POPULAR, 1)
-        moviePreviewViewModel.getMoviesList(this, MovieCategoryInteger.NOW_PLAYING, 1)
-        moviePreviewViewModel.getMoviesList(this, MovieCategoryInteger.UPCOMING, 1)
+        moviePreviewViewModel.getMoviesList(MovieCategoryInteger.TOP_RATED, 1)
+        moviePreviewViewModel.getMoviesList(MovieCategoryInteger.POPULAR, 1)
+        moviePreviewViewModel.getMoviesList(MovieCategoryInteger.NOW_PLAYING, 1)
+        moviePreviewViewModel.getMoviesList(MovieCategoryInteger.UPCOMING, 1)
     }
 
     private fun populateView(layout: LinearLayout, movies: List<MovieBasic>) {

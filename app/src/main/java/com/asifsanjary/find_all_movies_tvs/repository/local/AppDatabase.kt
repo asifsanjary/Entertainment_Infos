@@ -4,11 +4,10 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.room.TypeConverters
 import com.asifsanjary.find_all_movies_tvs.repository.local.entities.*
-import kotlinx.coroutines.CoroutineScope
+import com.asifsanjary.find_all_movies_tvs.repository.local.entities.DbUpdateTime
 
-@Database(entities = [MovieBasic::class, TopRatedMovies::class, PopularMovies::class, UpcomingMovies::class, NowPlayingMovies::class], version = 1, exportSchema = false)
+@Database(entities = [MovieBasic::class, TopRatedMovies::class, PopularMovies::class, UpcomingMovies::class, NowPlayingMovies::class, DbUpdateTime::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun moviesDao(): MoviesDao
 
