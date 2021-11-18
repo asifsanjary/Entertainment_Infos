@@ -34,4 +34,4 @@
 
 <p>Copyright (c) Asif Sanjary. All rights reserved.</p>
 
-<p>Licensed under the <a href="https://github.com/asifsanjary/Entertainment_Infos/blob/master/LICENSE">GPL-3.0 License</a> license.</p>
+<p>Licensed under the <a href="https://github.com/asifsanjary/Entertainment_Infos/blob/master/LICENSE">MIT License</a> license.</p>
