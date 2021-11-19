@@ -1,6 +1,6 @@
 <h1>Entertainment Infos</h1>
 <h2>Android App - refreshing my Android Skills and also showcasing</h2>
-<h2 style="color:red;"><strong>Due to other priorities, Development Stopped</stong><h2>
+<h2><u>Due to other priorities, Development Stopped</u><h2>
 <h3><strong>Used</strong> - Kotlin, Coroutines, Retrofit, Room-DB</h2>
 <hr>
 <h2>Todos</h2>
